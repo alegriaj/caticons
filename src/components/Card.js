@@ -1,8 +1,9 @@
 import React from 'react';
+import './Card.css';
 
 const Card = ({ name }) => {
   return (
-    <div className='bg-light-gray br3 pa3 ma2 grow bw2 shadow-5'>
+    <div className='Card br3 pa3 ma2 grow bw2 shadow-5'>
       <img
         alt={name}
         height='200'
