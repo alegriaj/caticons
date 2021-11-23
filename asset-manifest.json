@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/caticons/static/css/main.35841d4b.chunk.css",
+    "main.js": "/caticons/static/js/main.8660dc17.chunk.js",
+    "main.js.map": "/caticons/static/js/main.8660dc17.chunk.js.map",
+    "runtime-main.js": "/caticons/static/js/runtime-main.c20cb74c.js",
+    "runtime-main.js.map": "/caticons/static/js/runtime-main.c20cb74c.js.map",
+    "static/css/2.31461e4f.chunk.css": "/caticons/static/css/2.31461e4f.chunk.css",
+    "static/js/2.9ea84b60.chunk.js": "/caticons/static/js/2.9ea84b60.chunk.js",
+    "static/js/2.9ea84b60.chunk.js.map": "/caticons/static/js/2.9ea84b60.chunk.js.map",
+    "static/js/3.64c3709a.chunk.js": "/caticons/static/js/3.64c3709a.chunk.js",
+    "static/js/3.64c3709a.chunk.js.map": "/caticons/static/js/3.64c3709a.chunk.js.map",
+    "index.html": "/caticons/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/caticons/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.35841d4b.chunk.css.map": "/caticons/static/css/main.35841d4b.chunk.css.map",
+    "static/js/2.9ea84b60.chunk.js.LICENSE.txt": "/caticons/static/js/2.9ea84b60.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/caticons/static/media/pussyfoot.743e4d8e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c20cb74c.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.9ea84b60.chunk.js",
+    "static/css/main.35841d4b.chunk.css",
+    "static/js/main.8660dc17.chunk.js"
+  ]
+}
