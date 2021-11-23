@@ -22,8 +22,8 @@ class App extends React.Component {
     );
     return (
       <div className='tc'>
-        <h1 className='f1'>CatIcons!</h1>
-        <h3>Find your cats cartoon alter ego!</h3>
+        <h1 className='f-6 pussyfoot'>CatIcons!</h1>
+        Find your cats cartoon alter ego!
         <SearchBox searchChange={this.onSearchChange} />
         <CardList cats={filteredCats} />
       </div>

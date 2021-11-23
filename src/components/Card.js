@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ name }) => {
   return (
-    <div className='bg-light-green br3 pa3 ma2 grow bw2 shadow-5'>
+    <div className='bg-light-gray br3 pa3 ma2 grow bw2 shadow-5'>
       <img
         alt={name}
         height='200'
