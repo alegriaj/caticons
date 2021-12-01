@@ -1,34 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import SearchBox from '../components/SearchBox';
 import CardList from '../components/CardList';
 
 const catNames = require('cat-names');
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = { cats: catNames.all, searchfield: '' };
-  }
+const App = () => {
+  const [cats] = useState(catNames.all);
+  const [searchfield, setSearchfield] = useState('');
 
-  onSearchChange = (event) => {
-    this.setState({ searchfield: event.target.value });
+  const onSearchChange = (event) => {
+    setSearchfield(event.target.value);
   };
 
-  render() {
-    const { cats, searchfield } = this.state;
-    const filteredCats = cats.filter((cat) =>
-      cat.toLowerCase().includes(searchfield.toLowerCase())
-    );
-    return (
-      <div className='tc'>
-        <h1 className='f-6 pussyfoot'>CatIcons!</h1>
-        Find your cats cartoon alter ego!
-        <SearchBox searchChange={this.onSearchChange} />
-        <CardList cats={filteredCats} />
-      </div>
-    );
-  }
-}
+  const filteredCats = cats.filter((cat) =>
+    cat.toLowerCase().includes(searchfield.toLowerCase())
+  );
+
+  return (
+    <div className='tc'>
+      <h1 className='f-6 pussyfoot'>CatIcons!</h1>
+      Find your cats cartoon alter ego!
+      <SearchBox searchChange={onSearchChange} />
+      <CardList cats={filteredCats} />
+    </div>
+  );
+};
 
 export default App;
